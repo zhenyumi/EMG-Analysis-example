@@ -1,10 +1,10 @@
-# 🧠 EMG Multi-Segment Analysis with NeuroKit2
+# EMG Multi-Segment Analysis with NeuroKit2
 
 This repository contains a Jupyter Notebook (`EMG_Analyze_Multi_Segment.ipynb`) for analyzing EMG (electromyography) signals, especially from mouse experiments. It enables flexible, segment-wise analysis of EMG amplitude and frequency characteristics, leveraging the power of [**NeuroKit2**](https://neuropsychology.github.io/NeuroKit/).
 
 ---
 
-## 📌 Features
+## Features
 
 - **Flexible Multi-Segment Analysis**  
   Define custom time segments (e.g., Phase 1: 0–10s) for isolated statistical comparison.
@@ -27,7 +27,7 @@ This repository contains a Jupyter Notebook (`EMG_Analyze_Multi_Segment.ipynb`) 
 
 ---
 
-## 🧪 Dependencies
+## Dependencies
 
 The notebook relies on the following Python packages:
 
@@ -43,7 +43,7 @@ pip install neurokit2 scipy numpy pandas openpyxl
 
 ---
 
-## 🛠 Example Configuration
+## Example Configuration
 
 ```python
 sampling_rate = 400  # Hz
@@ -61,14 +61,7 @@ highcut = 400
 
 ---
 
-## 📂 File Description
-
-- `EMG_Analyze_Multi_Segment.ipynb`:  
-  The main notebook performing segmented EMG analysis with NeuroKit2.
-
----
-
-## 🧬 Applications
+## Applications
 
 - Behavioral neuroscience EMG recordings
 - Muscle activation profiling
@@ -77,6 +70,6 @@ highcut = 400
 
 ---
 
-## 📄 License
+## License
 
 This project is released under the MIT License.
